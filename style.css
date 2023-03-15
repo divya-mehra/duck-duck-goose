@@ -1,0 +1,51 @@
+* {
+    font-family: Helvetica, sans-serif
+}
+
+pre {
+    font-family: monospace;
+}
+
+.wrapper {
+    display: flex;
+    margin: 32px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+
+#onclick-example {
+    color: black;
+
+}
+
+
+.css-hover-example {
+    font-style: italic;
+}
+
+.css-hover-example:hover {
+    opacity: 0; 
+    transition: 1s;
+    cursor: crosshair;
+}
+
+input:focus {
+    background-color: #FFF9A6;
+}
+
+/* button:active {
+    border: black;
+} */
+
+
+
+
+
+
+
+ 
