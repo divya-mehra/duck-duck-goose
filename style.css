@@ -40,8 +40,37 @@ input:focus {
 
 /* button:active {
     border: black;
-} */
+} */   
 
+/* CSS Animations */
+
+@keyframes sun-expand {
+    0% {
+        margin-left: 100%;
+        background-color: #ffe53d;
+      }
+    
+      50% {
+        background-color: #ffd72c;
+        width: 100px;
+        height: 100px;
+      }
+    100% {
+        margin-left: 0%;
+        background-color: #ffe53d;
+    }
+}
+
+.sun {
+    height: 40px;
+    width: 40px;
+    /* position: absolute; */
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+
+    animation: 8s sun-expand infinite alternate ease-in-out;
+}
 
 
 

@@ -29,12 +29,6 @@ mouseover_example.addEventListener('mouseout', () => {
 // })
 
 
-
-
-
-
-
-
 // Functions
 
 let a_input = document.getElementById('a-input');
